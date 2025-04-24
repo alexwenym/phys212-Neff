@@ -1,0 +1,5 @@
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 11793877 ON holy8a24301 CANCELLED AT 2025-04-22T13:27:37 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 11793877.0 ON holy8a24301 CANCELLED AT 2025-04-22T13:27:37 DUE TO TIME LIMIT ***
+srun: got SIGCONT
+srun: forcing job termination

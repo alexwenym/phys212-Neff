@@ -1,0 +1,60 @@
+JobID: 11583998
+Running on: holy8a24402.rc.fas.harvard.edu
+Current directory: /n/home01/awen/meows_home/LCDM/cosmology_run
+Date: Sun Apr 20 11:37:57 EDT 2025
+Python executable: /n/home01/awen/miniconda3/bin/python
+Using YAML file: cosmology_example.yaml
+[output] Output to be read-from/written-into folder 'chains', with prefix 'gaussian'
+[output] Found existing info files with the requested output prefix: 'chains/gaussian'
+[output] Let's try to resume/load.
+[output] Found an old sample. Resuming.
+[camb] `camb` module loaded successfully from /n/holylfs05/LABS/arguelles_delgado_lab/Lab/meows_dnn/alex/LCDM/packages/code/CAMB/camb
+[planck_npipe_highl_camspec.ttteee] L-range for 143x143: 30 2000
+[planck_npipe_highl_camspec.ttteee] L-range for 217x217: 500 2500
+[planck_npipe_highl_camspec.ttteee] L-range for 143x217: 500 2500
+[planck_npipe_highl_camspec.ttteee] L-range for TE: 30 2000
+[planck_npipe_highl_camspec.ttteee] L-range for EE: 30 2000
+[planck_npipe_highl_camspec.ttteee] Number of data points: 9915
+[mcmc] Resuming from previous sample!
+[samplecollection] Loaded 3559 sample points from 'chains/gaussian.1.txt'
+[mcmc] Initial point: nnu:3.023422, logA:3.02904, ns:0.9640347, theta_MC_100:1.040531, ombh2:0.0223085, omch2:0.1184624, tau:0.05142815, A_planck:0.9987633, amp_143:17.56672, amp_217:11.76192, amp_143x217:8.140866, n_143:1.174639, n_217:1.493517, n_143x217:1.722055, calTE:1.00147, calEE:1.00232
+[mcmc] *WARNING* Parameter blocking manually/previously fixed: speeds will not be measured.
+[mcmc] Dragging with number of interpolating steps:
+[mcmc] * 1 : (['nnu', 'theta_MC_100', 'ombh2', 'omch2', 'tau'], ['logA', 'ns'])
+[mcmc] * 9 : (['A_planck'], ['amp_143', 'amp_217', 'amp_143x217', 'n_143', 'n_217', 'n_143x217', 'calTE', 'calEE'])
+[mcmc] Covariance matrix from previous sample.
+[mcmc] Sampling!
+[mcmc] Progress @ 2025-04-20 11:38:09 : 1 steps taken, and 3559 accepted.
+[mcmc] Progress @ 2025-04-20 11:39:10 : 53 steps taken, and 3570 accepted.
+[mcmc] Progress @ 2025-04-20 11:40:11 : 104 steps taken, and 3587 accepted.
+[mcmc] Progress @ 2025-04-20 11:41:11 : 156 steps taken, and 3605 accepted.
+[mcmc] Progress @ 2025-04-20 11:42:11 : 206 steps taken, and 3621 accepted.
+[mcmc] Progress @ 2025-04-20 11:43:12 : 258 steps taken, and 3636 accepted.
+[mcmc] Learn + convergence test @ 3640 samples accepted.
+[mcmc]  - Acceptance rate: 0.339
+[mcmc]  - Convergence of means: R-1 = 0.215108 after 2912 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-20 11:44:14 : 313 steps taken, and 3658 accepted.
+[mcmc] Progress @ 2025-04-20 11:45:15 : 364 steps taken, and 3674 accepted.
+[mcmc] Progress @ 2025-04-20 11:46:16 : 416 steps taken, and 3692 accepted.
+[mcmc] Progress @ 2025-04-20 11:47:17 : 467 steps taken, and 3703 accepted.
+[mcmc] Progress @ 2025-04-20 11:48:18 : 520 steps taken, and 3721 accepted.
+[mcmc] Progress @ 2025-04-20 11:49:18 : 571 steps taken, and 3737 accepted.
+[mcmc] Progress @ 2025-04-20 11:50:18 : 622 steps taken, and 3750 accepted.
+[mcmc] Progress @ 2025-04-20 11:51:19 : 674 steps taken, and 3770 accepted.
+[mcmc] Progress @ 2025-04-20 11:52:20 : 725 steps taken, and 3789 accepted.
+[mcmc] Progress @ 2025-04-20 11:53:21 : 777 steps taken, and 3812 accepted.
+[mcmc] Progress @ 2025-04-20 11:54:21 : 828 steps taken, and 3830 accepted.
+[mcmc] Progress @ 2025-04-20 11:55:23 : 879 steps taken, and 3843 accepted.
+[mcmc] Progress @ 2025-04-20 11:56:24 : 932 steps taken, and 3860 accepted.
+[mcmc] Progress @ 2025-04-20 11:57:24 : 983 steps taken, and 3878 accepted.
+[mcmc] Progress @ 2025-04-20 11:58:25 : 1035 steps taken, and 3892 accepted.
+[mcmc] Progress @ 2025-04-20 11:59:25 : 1086 steps taken, and 3908 accepted.
+[mcmc] Learn + convergence test @ 3920 samples accepted.
+[mcmc]  - Acceptance rate: 0.336
+[mcmc]  - Convergence of means: R-1 = 0.167638 after 3136 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-20 12:00:26 : 1139 steps taken, and 3926 accepted.
+[mcmc] Progress @ 2025-04-20 12:01:26 : 1191 steps taken, and 3936 accepted.
+[mcmc] Progress @ 2025-04-20 12:02:27 : 1242 steps taken, and 3958 accepted.
+[mcmc] Progress @ 2025-04-20 12:03:27 : 1293 steps taken, and 3979 accepted.

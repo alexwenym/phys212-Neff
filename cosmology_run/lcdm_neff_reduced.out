@@ -1,0 +1,900 @@
+JobID: 11794005
+Running on: holy8a24301.rc.fas.harvard.edu
+Current directory: /n/home01/awen/meows_home/LCDM/cosmology_run
+Date: Tue Apr 22 01:29:59 EDT 2025
+Python executable: /n/home01/awen/miniconda3/envs/cobaya_env/bin/python
+Using YAML file: planck_reduced_params.yaml
+[output] Output to be read-from/written-into folder 'chains', with prefix 'planck_reduced'
+[output] Found existing info files with the requested output prefix: 'chains/planck_reduced'
+[output] Let's try to resume/load.
+[output] Found an old sample. Resuming.
+[camb] `camb` module loaded successfully from /n/holylfs05/LABS/arguelles_delgado_lab/Lab/meows_dnn/alex/LCDM/packages/code/CAMB/camb
+[planck_npipe_highl_camspec.ttteee] L-range for 143x143: 30 2000
+[planck_npipe_highl_camspec.ttteee] L-range for 217x217: 500 2500
+[planck_npipe_highl_camspec.ttteee] L-range for 143x217: 500 2500
+[planck_npipe_highl_camspec.ttteee] L-range for TE: 30 2000
+[planck_npipe_highl_camspec.ttteee] L-range for EE: 30 2000
+[planck_npipe_highl_camspec.ttteee] Number of data points: 9915
+[mcmc] Resuming from previous sample!
+[samplecollection] Loaded 21876 sample points from 'chains/planck_reduced.1.txt'
+[mcmc] Initial point: nnu:2.959501, ombh2:0.02194587, omch2:0.1197245, cosmomc_theta:0.01040675, logA:3.053287, ns:0.954315, tau:0.05733191, A_planck:1.00314, amp_143:19.622, amp_217:13.63709, amp_143x217:10.23443, n_143:1.173653, n_217:1.38285, n_143x217:1.663627, calTE:0.9961397, calEE:1.000929
+[mcmc] *WARNING* Parameter blocking manually/previously fixed: speeds will not be measured.
+[mcmc] Dragging with number of interpolating steps:
+[mcmc] *  1 : (['nnu', 'ombh2', 'omch2', 'cosmomc_theta', 'tau'], ['logA', 'ns'])
+[mcmc] * 10 : (['A_planck'], ['amp_143', 'amp_217', 'amp_143x217', 'n_143', 'n_217', 'n_143x217', 'calTE', 'calEE'])
+[mcmc] Covariance matrix from previous sample.
+[mcmc] Sampling!
+[mcmc] Progress @ 2025-04-22 01:30:12 : 1 steps taken, and 21876 accepted.
+[mcmc] Progress @ 2025-04-22 01:31:13 : 47 steps taken, and 21890 accepted.
+[mcmc] Progress @ 2025-04-22 01:32:13 : 94 steps taken, and 21903 accepted.
+[mcmc] Progress @ 2025-04-22 01:33:15 : 142 steps taken, and 21916 accepted.
+[mcmc] Progress @ 2025-04-22 01:34:15 : 190 steps taken, and 21933 accepted.
+[mcmc] Progress @ 2025-04-22 01:35:16 : 237 steps taken, and 21950 accepted.
+[mcmc] Progress @ 2025-04-22 01:36:16 : 283 steps taken, and 21967 accepted.
+[mcmc] Progress @ 2025-04-22 01:37:17 : 334 steps taken, and 21985 accepted.
+[mcmc] Progress @ 2025-04-22 01:38:17 : 380 steps taken, and 22003 accepted.
+[mcmc] Progress @ 2025-04-22 01:39:17 : 427 steps taken, and 22020 accepted.
+[mcmc] Progress @ 2025-04-22 01:40:18 : 475 steps taken, and 22040 accepted.
+[mcmc] Progress @ 2025-04-22 01:41:19 : 523 steps taken, and 22056 accepted.
+[mcmc] Progress @ 2025-04-22 01:42:19 : 569 steps taken, and 22068 accepted.
+[mcmc] Progress @ 2025-04-22 01:43:20 : 615 steps taken, and 22085 accepted.
+[mcmc] Progress @ 2025-04-22 01:44:21 : 662 steps taken, and 22102 accepted.
+[mcmc] Learn + convergence test @ 22120 samples accepted.
+[mcmc]  - Acceptance rate: 0.324
+[mcmc]  - Convergence of means: R-1 = 0.038498 after 17696 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 01:45:22 : 709 steps taken, and 22122 accepted.
+[mcmc] Progress @ 2025-04-22 01:46:22 : 756 steps taken, and 22142 accepted.
+[mcmc] Progress @ 2025-04-22 01:47:24 : 804 steps taken, and 22158 accepted.
+[mcmc] Progress @ 2025-04-22 01:48:25 : 851 steps taken, and 22176 accepted.
+[mcmc] Progress @ 2025-04-22 01:49:26 : 898 steps taken, and 22192 accepted.
+[mcmc] Progress @ 2025-04-22 01:50:26 : 946 steps taken, and 22211 accepted.
+[mcmc] Progress @ 2025-04-22 01:51:26 : 995 steps taken, and 22227 accepted.
+[mcmc] Progress @ 2025-04-22 01:52:26 : 1042 steps taken, and 22238 accepted.
+[mcmc] Progress @ 2025-04-22 01:53:28 : 1089 steps taken, and 22257 accepted.
+[mcmc] Progress @ 2025-04-22 01:54:29 : 1136 steps taken, and 22271 accepted.
+[mcmc] Progress @ 2025-04-22 01:55:29 : 1182 steps taken, and 22287 accepted.
+[mcmc] Progress @ 2025-04-22 01:56:30 : 1228 steps taken, and 22303 accepted.
+[mcmc] Progress @ 2025-04-22 01:57:30 : 1275 steps taken, and 22321 accepted.
+[mcmc] Progress @ 2025-04-22 01:58:31 : 1322 steps taken, and 22332 accepted.
+[mcmc] Progress @ 2025-04-22 01:59:33 : 1370 steps taken, and 22345 accepted.
+[mcmc] Progress @ 2025-04-22 02:00:34 : 1417 steps taken, and 22362 accepted.
+[mcmc] Progress @ 2025-04-22 02:01:35 : 1463 steps taken, and 22378 accepted.
+[mcmc] Progress @ 2025-04-22 02:02:36 : 1510 steps taken, and 22392 accepted.
+[mcmc] Learn + convergence test @ 22400 samples accepted.
+[mcmc]  - Acceptance rate: 0.324
+[mcmc]  - Convergence of means: R-1 = 0.036350 after 17920 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 02:03:36 : 1556 steps taken, and 22407 accepted.
+[mcmc] Progress @ 2025-04-22 02:04:37 : 1603 steps taken, and 22423 accepted.
+[mcmc] Progress @ 2025-04-22 02:05:38 : 1650 steps taken, and 22440 accepted.
+[mcmc] Progress @ 2025-04-22 02:06:38 : 1699 steps taken, and 22461 accepted.
+[mcmc] Progress @ 2025-04-22 02:07:39 : 1746 steps taken, and 22476 accepted.
+[mcmc] Progress @ 2025-04-22 02:08:39 : 1792 steps taken, and 22492 accepted.
+[mcmc] Progress @ 2025-04-22 02:09:40 : 1839 steps taken, and 22506 accepted.
+[mcmc] Progress @ 2025-04-22 02:10:40 : 1888 steps taken, and 22519 accepted.
+[mcmc] Progress @ 2025-04-22 02:11:41 : 1935 steps taken, and 22537 accepted.
+[mcmc] Progress @ 2025-04-22 02:12:42 : 1985 steps taken, and 22556 accepted.
+[mcmc] Progress @ 2025-04-22 02:13:42 : 2033 steps taken, and 22574 accepted.
+[mcmc] Progress @ 2025-04-22 02:14:43 : 2081 steps taken, and 22587 accepted.
+[mcmc] Progress @ 2025-04-22 02:15:43 : 2130 steps taken, and 22607 accepted.
+[mcmc] Progress @ 2025-04-22 02:16:44 : 2177 steps taken, and 22629 accepted.
+[mcmc] Progress @ 2025-04-22 02:17:44 : 2223 steps taken, and 22643 accepted.
+[mcmc] Progress @ 2025-04-22 02:18:45 : 2270 steps taken, and 22665 accepted.
+[mcmc] Progress @ 2025-04-22 02:19:46 : 2317 steps taken, and 22678 accepted.
+[mcmc] Learn + convergence test @ 22680 samples accepted.
+[mcmc]  - Acceptance rate: 0.324
+[mcmc]  - Convergence of means: R-1 = 0.036195 after 18144 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 02:20:46 : 2365 steps taken, and 22693 accepted.
+[mcmc] Progress @ 2025-04-22 02:21:46 : 2413 steps taken, and 22711 accepted.
+[mcmc] Progress @ 2025-04-22 02:22:46 : 2460 steps taken, and 22729 accepted.
+[mcmc] Progress @ 2025-04-22 02:23:47 : 2506 steps taken, and 22742 accepted.
+[mcmc] Progress @ 2025-04-22 02:24:47 : 2558 steps taken, and 22756 accepted.
+[mcmc] Progress @ 2025-04-22 02:25:47 : 2607 steps taken, and 22768 accepted.
+[mcmc] Progress @ 2025-04-22 02:26:48 : 2654 steps taken, and 22779 accepted.
+[mcmc] Progress @ 2025-04-22 02:27:48 : 2701 steps taken, and 22798 accepted.
+[mcmc] Progress @ 2025-04-22 02:28:48 : 2748 steps taken, and 22819 accepted.
+[mcmc] Progress @ 2025-04-22 02:29:49 : 2799 steps taken, and 22835 accepted.
+[mcmc] Progress @ 2025-04-22 02:30:50 : 2846 steps taken, and 22852 accepted.
+[mcmc] Progress @ 2025-04-22 02:31:50 : 2893 steps taken, and 22870 accepted.
+[mcmc] Progress @ 2025-04-22 02:32:51 : 2940 steps taken, and 22883 accepted.
+[mcmc] Progress @ 2025-04-22 02:33:51 : 2986 steps taken, and 22902 accepted.
+[mcmc] Progress @ 2025-04-22 02:34:52 : 3033 steps taken, and 22913 accepted.
+[mcmc] Progress @ 2025-04-22 02:35:53 : 3080 steps taken, and 22926 accepted.
+[mcmc] Progress @ 2025-04-22 02:36:54 : 3127 steps taken, and 22942 accepted.
+[mcmc] Progress @ 2025-04-22 02:37:55 : 3174 steps taken, and 22953 accepted.
+[mcmc] Learn + convergence test @ 22960 samples accepted.
+[mcmc]  - Acceptance rate: 0.324
+[mcmc]  - Convergence of means: R-1 = 0.036275 after 18368 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 02:38:56 : 3222 steps taken, and 22963 accepted.
+[mcmc] Progress @ 2025-04-22 02:39:57 : 3269 steps taken, and 22978 accepted.
+[mcmc] Progress @ 2025-04-22 02:40:57 : 3321 steps taken, and 22987 accepted.
+[mcmc] Progress @ 2025-04-22 02:41:58 : 3369 steps taken, and 23003 accepted.
+[mcmc] Progress @ 2025-04-22 02:42:59 : 3415 steps taken, and 23020 accepted.
+[mcmc] Progress @ 2025-04-22 02:43:59 : 3464 steps taken, and 23035 accepted.
+[mcmc] Progress @ 2025-04-22 02:45:00 : 3512 steps taken, and 23046 accepted.
+[mcmc] Progress @ 2025-04-22 02:46:00 : 3566 steps taken, and 23053 accepted.
+[mcmc] Progress @ 2025-04-22 02:47:01 : 3616 steps taken, and 23064 accepted.
+[mcmc] Progress @ 2025-04-22 02:48:02 : 3666 steps taken, and 23082 accepted.
+[mcmc] Progress @ 2025-04-22 02:49:02 : 3713 steps taken, and 23096 accepted.
+[mcmc] Progress @ 2025-04-22 02:50:03 : 3760 steps taken, and 23118 accepted.
+[mcmc] Progress @ 2025-04-22 02:51:05 : 3809 steps taken, and 23130 accepted.
+[mcmc] Progress @ 2025-04-22 02:52:05 : 3856 steps taken, and 23150 accepted.
+[mcmc] Progress @ 2025-04-22 02:53:06 : 3904 steps taken, and 23165 accepted.
+[mcmc] Progress @ 2025-04-22 02:54:07 : 3953 steps taken, and 23178 accepted.
+[mcmc] Progress @ 2025-04-22 02:55:07 : 4000 steps taken, and 23192 accepted.
+[mcmc] Progress @ 2025-04-22 02:56:07 : 4048 steps taken, and 23213 accepted.
+[mcmc] Progress @ 2025-04-22 02:57:07 : 4095 steps taken, and 23232 accepted.
+ Warning: xe at redshift zero is < 1
+ Check input parameters an Reionization_xe
+ function in the Reionization module
+[mcmc] Learn + convergence test @ 23240 samples accepted.
+[mcmc]  - Acceptance rate: 0.324
+[mcmc]  - Convergence of means: R-1 = 0.033232 after 18592 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 02:58:07 : 4141 steps taken, and 23246 accepted.
+[mcmc] Progress @ 2025-04-22 02:59:09 : 4189 steps taken, and 23261 accepted.
+[mcmc] Progress @ 2025-04-22 03:00:09 : 4238 steps taken, and 23276 accepted.
+[mcmc] Progress @ 2025-04-22 03:01:10 : 4284 steps taken, and 23290 accepted.
+[mcmc] Progress @ 2025-04-22 03:02:11 : 4331 steps taken, and 23304 accepted.
+[mcmc] Progress @ 2025-04-22 03:03:12 : 4380 steps taken, and 23323 accepted.
+[mcmc] Progress @ 2025-04-22 03:04:13 : 4426 steps taken, and 23344 accepted.
+[mcmc] Progress @ 2025-04-22 03:05:13 : 4473 steps taken, and 23361 accepted.
+[mcmc] Progress @ 2025-04-22 03:06:14 : 4522 steps taken, and 23378 accepted.
+[mcmc] Progress @ 2025-04-22 03:07:15 : 4571 steps taken, and 23390 accepted.
+[mcmc] Progress @ 2025-04-22 03:08:15 : 4618 steps taken, and 23402 accepted.
+[mcmc] Progress @ 2025-04-22 03:09:16 : 4667 steps taken, and 23414 accepted.
+[mcmc] Progress @ 2025-04-22 03:10:17 : 4716 steps taken, and 23433 accepted.
+[mcmc] Progress @ 2025-04-22 03:11:18 : 4764 steps taken, and 23447 accepted.
+[mcmc] Progress @ 2025-04-22 03:12:19 : 4813 steps taken, and 23462 accepted.
+[mcmc] Progress @ 2025-04-22 03:13:19 : 4860 steps taken, and 23482 accepted.
+[mcmc] Progress @ 2025-04-22 03:14:19 : 4906 steps taken, and 23496 accepted.
+[mcmc] Progress @ 2025-04-22 03:15:19 : 4956 steps taken, and 23512 accepted.
+[mcmc] Learn + convergence test @ 23520 samples accepted.
+[mcmc]  - Acceptance rate: 0.324
+[mcmc]  - Convergence of means: R-1 = 0.023608 after 18816 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 03:16:20 : 5004 steps taken, and 23530 accepted.
+[mcmc] Progress @ 2025-04-22 03:17:20 : 5054 steps taken, and 23542 accepted.
+[mcmc] Progress @ 2025-04-22 03:18:20 : 5101 steps taken, and 23553 accepted.
+[mcmc] Progress @ 2025-04-22 03:19:22 : 5150 steps taken, and 23567 accepted.
+[mcmc] Progress @ 2025-04-22 03:20:22 : 5198 steps taken, and 23582 accepted.
+[mcmc] Progress @ 2025-04-22 03:21:23 : 5246 steps taken, and 23601 accepted.
+[mcmc] Progress @ 2025-04-22 03:22:23 : 5293 steps taken, and 23615 accepted.
+[mcmc] Progress @ 2025-04-22 03:23:24 : 5341 steps taken, and 23627 accepted.
+[mcmc] Progress @ 2025-04-22 03:24:25 : 5390 steps taken, and 23648 accepted.
+[mcmc] Progress @ 2025-04-22 03:25:26 : 5440 steps taken, and 23665 accepted.
+[mcmc] Progress @ 2025-04-22 03:26:27 : 5487 steps taken, and 23682 accepted.
+[mcmc] Progress @ 2025-04-22 03:27:28 : 5534 steps taken, and 23694 accepted.
+[mcmc] Progress @ 2025-04-22 03:28:28 : 5580 steps taken, and 23715 accepted.
+[mcmc] Progress @ 2025-04-22 03:29:28 : 5626 steps taken, and 23726 accepted.
+[mcmc] Progress @ 2025-04-22 03:30:30 : 5675 steps taken, and 23744 accepted.
+[mcmc] Progress @ 2025-04-22 03:31:31 : 5721 steps taken, and 23762 accepted.
+[mcmc] Progress @ 2025-04-22 03:32:31 : 5769 steps taken, and 23773 accepted.
+[mcmc] Progress @ 2025-04-22 03:33:31 : 5816 steps taken, and 23795 accepted.
+[mcmc] Learn + convergence test @ 23800 samples accepted.
+[mcmc]  - Acceptance rate: 0.324
+[mcmc]  - Convergence of means: R-1 = 0.028329 after 19040 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 03:34:32 : 5863 steps taken, and 23808 accepted.
+[mcmc] Progress @ 2025-04-22 03:35:32 : 5911 steps taken, and 23822 accepted.
+[mcmc] Progress @ 2025-04-22 03:36:33 : 5959 steps taken, and 23837 accepted.
+[mcmc] Progress @ 2025-04-22 03:37:34 : 6009 steps taken, and 23856 accepted.
+[mcmc] Progress @ 2025-04-22 03:38:35 : 6061 steps taken, and 23875 accepted.
+[mcmc] Progress @ 2025-04-22 03:39:36 : 6109 steps taken, and 23890 accepted.
+[mcmc] Progress @ 2025-04-22 03:40:36 : 6156 steps taken, and 23905 accepted.
+[mcmc] Progress @ 2025-04-22 03:41:36 : 6205 steps taken, and 23921 accepted.
+[mcmc] Progress @ 2025-04-22 03:42:37 : 6253 steps taken, and 23942 accepted.
+[mcmc] Progress @ 2025-04-22 03:43:38 : 6304 steps taken, and 23961 accepted.
+[mcmc] Progress @ 2025-04-22 03:44:39 : 6352 steps taken, and 23975 accepted.
+[mcmc] Progress @ 2025-04-22 03:45:40 : 6403 steps taken, and 23990 accepted.
+[mcmc] Progress @ 2025-04-22 03:46:41 : 6450 steps taken, and 24004 accepted.
+[mcmc] Progress @ 2025-04-22 03:47:42 : 6497 steps taken, and 24017 accepted.
+[mcmc] Progress @ 2025-04-22 03:48:42 : 6545 steps taken, and 24031 accepted.
+[mcmc] Progress @ 2025-04-22 03:49:43 : 6593 steps taken, and 24048 accepted.
+[mcmc] Progress @ 2025-04-22 03:50:44 : 6640 steps taken, and 24065 accepted.
+[mcmc] Progress @ 2025-04-22 03:51:45 : 6687 steps taken, and 24080 accepted.
+[mcmc] Learn + convergence test @ 24080 samples accepted.
+[mcmc]  - Acceptance rate: 0.324
+[mcmc]  - Convergence of means: R-1 = 0.025587 after 19264 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 03:52:46 : 6735 steps taken, and 24095 accepted.
+[mcmc] Progress @ 2025-04-22 03:53:47 : 6783 steps taken, and 24108 accepted.
+[mcmc] Progress @ 2025-04-22 03:54:48 : 6830 steps taken, and 24118 accepted.
+[mcmc] Progress @ 2025-04-22 03:55:49 : 6877 steps taken, and 24131 accepted.
+[mcmc] Progress @ 2025-04-22 03:56:49 : 6926 steps taken, and 24140 accepted.
+[mcmc] Progress @ 2025-04-22 03:57:49 : 6972 steps taken, and 24157 accepted.
+[mcmc] Progress @ 2025-04-22 03:58:50 : 7019 steps taken, and 24172 accepted.
+[mcmc] Progress @ 2025-04-22 03:59:51 : 7068 steps taken, and 24190 accepted.
+[mcmc] Progress @ 2025-04-22 04:00:52 : 7115 steps taken, and 24206 accepted.
+[mcmc] Progress @ 2025-04-22 04:01:53 : 7163 steps taken, and 24222 accepted.
+[mcmc] Progress @ 2025-04-22 04:02:54 : 7210 steps taken, and 24239 accepted.
+[mcmc] Progress @ 2025-04-22 04:03:55 : 7257 steps taken, and 24259 accepted.
+[mcmc] Progress @ 2025-04-22 04:04:55 : 7305 steps taken, and 24275 accepted.
+[mcmc] Progress @ 2025-04-22 04:05:56 : 7352 steps taken, and 24295 accepted.
+[mcmc] Progress @ 2025-04-22 04:06:56 : 7399 steps taken, and 24309 accepted.
+[mcmc] Progress @ 2025-04-22 04:07:57 : 7447 steps taken, and 24324 accepted.
+[mcmc] Progress @ 2025-04-22 04:08:57 : 7495 steps taken, and 24341 accepted.
+[mcmc] Progress @ 2025-04-22 04:09:57 : 7541 steps taken, and 24355 accepted.
+[mcmc] Learn + convergence test @ 24360 samples accepted.
+[mcmc]  - Acceptance rate: 0.324
+[mcmc]  - Convergence of means: R-1 = 0.029038 after 19488 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 04:10:58 : 7588 steps taken, and 24363 accepted.
+[mcmc] Progress @ 2025-04-22 04:11:59 : 7638 steps taken, and 24374 accepted.
+[mcmc] Progress @ 2025-04-22 04:12:59 : 7686 steps taken, and 24390 accepted.
+[mcmc] Progress @ 2025-04-22 04:14:00 : 7732 steps taken, and 24408 accepted.
+[mcmc] Progress @ 2025-04-22 04:15:02 : 7782 steps taken, and 24424 accepted.
+[mcmc] Progress @ 2025-04-22 04:16:02 : 7829 steps taken, and 24437 accepted.
+[mcmc] Progress @ 2025-04-22 04:17:03 : 7877 steps taken, and 24444 accepted.
+[mcmc] Progress @ 2025-04-22 04:18:04 : 7928 steps taken, and 24457 accepted.
+[mcmc] Progress @ 2025-04-22 04:19:04 : 7976 steps taken, and 24470 accepted.
+[mcmc] Progress @ 2025-04-22 04:20:04 : 8024 steps taken, and 24490 accepted.
+[mcmc] Progress @ 2025-04-22 04:21:05 : 8073 steps taken, and 24505 accepted.
+[mcmc] Progress @ 2025-04-22 04:22:06 : 8120 steps taken, and 24521 accepted.
+[mcmc] Progress @ 2025-04-22 04:23:06 : 8168 steps taken, and 24532 accepted.
+[mcmc] Progress @ 2025-04-22 04:24:06 : 8214 steps taken, and 24551 accepted.
+[mcmc] Progress @ 2025-04-22 04:25:07 : 8264 steps taken, and 24569 accepted.
+[mcmc] Progress @ 2025-04-22 04:26:08 : 8312 steps taken, and 24583 accepted.
+[mcmc] Progress @ 2025-04-22 04:27:09 : 8359 steps taken, and 24594 accepted.
+[mcmc] Progress @ 2025-04-22 04:28:10 : 8407 steps taken, and 24610 accepted.
+[mcmc] Progress @ 2025-04-22 04:29:12 : 8455 steps taken, and 24622 accepted.
+[mcmc] Progress @ 2025-04-22 04:30:12 : 8503 steps taken, and 24636 accepted.
+[mcmc] Learn + convergence test @ 24640 samples accepted.
+[mcmc]  - Acceptance rate: 0.323
+[mcmc]  - Convergence of means: R-1 = 0.031773 after 19712 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 04:31:13 : 8554 steps taken, and 24645 accepted.
+[mcmc] Progress @ 2025-04-22 04:32:14 : 8603 steps taken, and 24657 accepted.
+[mcmc] Progress @ 2025-04-22 04:33:14 : 8650 steps taken, and 24671 accepted.
+[mcmc] Progress @ 2025-04-22 04:34:15 : 8698 steps taken, and 24685 accepted.
+[mcmc] Progress @ 2025-04-22 04:35:16 : 8749 steps taken, and 24706 accepted.
+[mcmc] Progress @ 2025-04-22 04:36:16 : 8795 steps taken, and 24718 accepted.
+[mcmc] Progress @ 2025-04-22 04:37:16 : 8843 steps taken, and 24734 accepted.
+[mcmc] Progress @ 2025-04-22 04:38:16 : 8890 steps taken, and 24752 accepted.
+[mcmc] Progress @ 2025-04-22 04:39:17 : 8936 steps taken, and 24766 accepted.
+[mcmc] Progress @ 2025-04-22 04:40:18 : 8984 steps taken, and 24779 accepted.
+[mcmc] Progress @ 2025-04-22 04:41:19 : 9032 steps taken, and 24797 accepted.
+[mcmc] Progress @ 2025-04-22 04:42:20 : 9081 steps taken, and 24812 accepted.
+[mcmc] Progress @ 2025-04-22 04:43:21 : 9129 steps taken, and 24827 accepted.
+[mcmc] Progress @ 2025-04-22 04:44:22 : 9176 steps taken, and 24841 accepted.
+[mcmc] Progress @ 2025-04-22 04:45:23 : 9224 steps taken, and 24853 accepted.
+[mcmc] Progress @ 2025-04-22 04:46:24 : 9271 steps taken, and 24871 accepted.
+[mcmc] Progress @ 2025-04-22 04:47:24 : 9317 steps taken, and 24886 accepted.
+[mcmc] Progress @ 2025-04-22 04:48:25 : 9365 steps taken, and 24906 accepted.
+[mcmc] Learn + convergence test @ 24920 samples accepted.
+[mcmc]  - Acceptance rate: 0.323
+[mcmc]  - Convergence of means: R-1 = 0.030037 after 19936 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 04:49:25 : 9411 steps taken, and 24924 accepted.
+[mcmc] Progress @ 2025-04-22 04:50:27 : 9460 steps taken, and 24950 accepted.
+[mcmc] Progress @ 2025-04-22 04:51:28 : 9507 steps taken, and 24971 accepted.
+[mcmc] Progress @ 2025-04-22 04:52:28 : 9555 steps taken, and 24989 accepted.
+[mcmc] Progress @ 2025-04-22 04:53:29 : 9607 steps taken, and 25007 accepted.
+[mcmc] Progress @ 2025-04-22 04:54:30 : 9659 steps taken, and 25028 accepted.
+[mcmc] Progress @ 2025-04-22 04:55:30 : 9707 steps taken, and 25041 accepted.
+[mcmc] Progress @ 2025-04-22 04:56:31 : 9755 steps taken, and 25058 accepted.
+[mcmc] Progress @ 2025-04-22 04:57:31 : 9801 steps taken, and 25084 accepted.
+[mcmc] Progress @ 2025-04-22 04:58:32 : 9849 steps taken, and 25100 accepted.
+[mcmc] Progress @ 2025-04-22 04:59:33 : 9895 steps taken, and 25118 accepted.
+[mcmc] Progress @ 2025-04-22 05:00:33 : 9942 steps taken, and 25136 accepted.
+[mcmc] Progress @ 2025-04-22 05:01:33 : 9988 steps taken, and 25147 accepted.
+[mcmc] Progress @ 2025-04-22 05:02:34 : 10034 steps taken, and 25166 accepted.
+[mcmc] Progress @ 2025-04-22 05:03:34 : 10082 steps taken, and 25183 accepted.
+[mcmc] Progress @ 2025-04-22 05:04:34 : 10131 steps taken, and 25197 accepted.
+[mcmc] Learn + convergence test @ 25200 samples accepted.
+[mcmc]  - Acceptance rate: 0.324
+[mcmc]  - Convergence of means: R-1 = 0.026800 after 20160 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 05:05:36 : 10179 steps taken, and 25211 accepted.
+[mcmc] Progress @ 2025-04-22 05:06:37 : 10229 steps taken, and 25229 accepted.
+[mcmc] Progress @ 2025-04-22 05:07:38 : 10277 steps taken, and 25245 accepted.
+[mcmc] Progress @ 2025-04-22 05:08:39 : 10324 steps taken, and 25270 accepted.
+[mcmc] Progress @ 2025-04-22 05:09:39 : 10371 steps taken, and 25284 accepted.
+[mcmc] Progress @ 2025-04-22 05:10:40 : 10417 steps taken, and 25300 accepted.
+[mcmc] Progress @ 2025-04-22 05:11:40 : 10463 steps taken, and 25312 accepted.
+[mcmc] Progress @ 2025-04-22 05:12:40 : 10510 steps taken, and 25325 accepted.
+[mcmc] Progress @ 2025-04-22 05:13:42 : 10558 steps taken, and 25338 accepted.
+[mcmc] Progress @ 2025-04-22 05:14:43 : 10606 steps taken, and 25357 accepted.
+[mcmc] Progress @ 2025-04-22 05:15:43 : 10653 steps taken, and 25378 accepted.
+[mcmc] Progress @ 2025-04-22 05:16:43 : 10701 steps taken, and 25393 accepted.
+[mcmc] Progress @ 2025-04-22 05:17:44 : 10748 steps taken, and 25417 accepted.
+[mcmc] Progress @ 2025-04-22 05:18:45 : 10794 steps taken, and 25434 accepted.
+[mcmc] Progress @ 2025-04-22 05:19:45 : 10840 steps taken, and 25447 accepted.
+[mcmc] Progress @ 2025-04-22 05:20:45 : 10886 steps taken, and 25467 accepted.
+[mcmc] Learn + convergence test @ 25480 samples accepted.
+[mcmc]  - Acceptance rate: 0.324
+[mcmc]  - Convergence of means: R-1 = 0.028109 after 20384 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 05:21:46 : 10934 steps taken, and 25483 accepted.
+[mcmc] Progress @ 2025-04-22 05:22:47 : 10981 steps taken, and 25498 accepted.
+[mcmc] Progress @ 2025-04-22 05:23:47 : 11028 steps taken, and 25516 accepted.
+[mcmc] Progress @ 2025-04-22 05:24:47 : 11074 steps taken, and 25529 accepted.
+[mcmc] Progress @ 2025-04-22 05:25:48 : 11122 steps taken, and 25544 accepted.
+[mcmc] Progress @ 2025-04-22 05:26:48 : 11169 steps taken, and 25566 accepted.
+[mcmc] Progress @ 2025-04-22 05:27:49 : 11216 steps taken, and 25577 accepted.
+[mcmc] Progress @ 2025-04-22 05:28:50 : 11264 steps taken, and 25595 accepted.
+[mcmc] Progress @ 2025-04-22 05:29:50 : 11311 steps taken, and 25604 accepted.
+[mcmc] Progress @ 2025-04-22 05:30:52 : 11357 steps taken, and 25612 accepted.
+[mcmc] Progress @ 2025-04-22 05:31:52 : 11404 steps taken, and 25627 accepted.
+[mcmc] Progress @ 2025-04-22 05:32:52 : 11451 steps taken, and 25642 accepted.
+[mcmc] Progress @ 2025-04-22 05:33:53 : 11500 steps taken, and 25663 accepted.
+[mcmc] Progress @ 2025-04-22 05:34:53 : 11548 steps taken, and 25676 accepted.
+[mcmc] Progress @ 2025-04-22 05:35:54 : 11595 steps taken, and 25694 accepted.
+[mcmc] Progress @ 2025-04-22 05:36:56 : 11643 steps taken, and 25706 accepted.
+[mcmc] Progress @ 2025-04-22 05:37:56 : 11690 steps taken, and 25716 accepted.
+[mcmc] Progress @ 2025-04-22 05:38:56 : 11741 steps taken, and 25732 accepted.
+[mcmc] Progress @ 2025-04-22 05:39:57 : 11792 steps taken, and 25745 accepted.
+[mcmc] Progress @ 2025-04-22 05:40:58 : 11840 steps taken, and 25754 accepted.
+[mcmc] Learn + convergence test @ 25760 samples accepted.
+[mcmc]  - Acceptance rate: 0.324
+[mcmc]  - Convergence of means: R-1 = 0.028697 after 20608 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 05:41:58 : 11887 steps taken, and 25766 accepted.
+[mcmc] Progress @ 2025-04-22 05:42:58 : 11933 steps taken, and 25782 accepted.
+[mcmc] Progress @ 2025-04-22 05:43:59 : 11981 steps taken, and 25798 accepted.
+[mcmc] Progress @ 2025-04-22 05:45:00 : 12028 steps taken, and 25812 accepted.
+[mcmc] Progress @ 2025-04-22 05:46:01 : 12075 steps taken, and 25829 accepted.
+[mcmc] Progress @ 2025-04-22 05:47:02 : 12123 steps taken, and 25852 accepted.
+[mcmc] Progress @ 2025-04-22 05:48:03 : 12170 steps taken, and 25871 accepted.
+[mcmc] Progress @ 2025-04-22 05:49:04 : 12217 steps taken, and 25885 accepted.
+[mcmc] Progress @ 2025-04-22 05:50:04 : 12264 steps taken, and 25901 accepted.
+[mcmc] Progress @ 2025-04-22 05:51:06 : 12311 steps taken, and 25923 accepted.
+[mcmc] Progress @ 2025-04-22 05:52:07 : 12359 steps taken, and 25942 accepted.
+[mcmc] Progress @ 2025-04-22 05:53:08 : 12407 steps taken, and 25963 accepted.
+[mcmc] Progress @ 2025-04-22 05:54:09 : 12454 steps taken, and 25982 accepted.
+[mcmc] Progress @ 2025-04-22 05:55:09 : 12502 steps taken, and 25999 accepted.
+[mcmc] Progress @ 2025-04-22 05:56:10 : 12549 steps taken, and 26016 accepted.
+[mcmc] Progress @ 2025-04-22 05:57:11 : 12595 steps taken, and 26032 accepted.
+[mcmc] Learn + convergence test @ 26040 samples accepted.
+[mcmc]  - Acceptance rate: 0.324
+[mcmc]  - Convergence of means: R-1 = 0.027558 after 20832 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 05:58:11 : 12641 steps taken, and 26048 accepted.
+[mcmc] Progress @ 2025-04-22 05:59:12 : 12691 steps taken, and 26065 accepted.
+[mcmc] Progress @ 2025-04-22 06:00:13 : 12739 steps taken, and 26075 accepted.
+[mcmc] Progress @ 2025-04-22 06:01:14 : 12786 steps taken, and 26091 accepted.
+[mcmc] Progress @ 2025-04-22 06:02:15 : 12835 steps taken, and 26112 accepted.
+[mcmc] Progress @ 2025-04-22 06:03:16 : 12881 steps taken, and 26128 accepted.
+[mcmc] Progress @ 2025-04-22 06:04:16 : 12928 steps taken, and 26147 accepted.
+[mcmc] Progress @ 2025-04-22 06:05:17 : 12976 steps taken, and 26165 accepted.
+[mcmc] Progress @ 2025-04-22 06:06:18 : 13025 steps taken, and 26182 accepted.
+[mcmc] Progress @ 2025-04-22 06:07:18 : 13072 steps taken, and 26198 accepted.
+[mcmc] Progress @ 2025-04-22 06:08:19 : 13120 steps taken, and 26218 accepted.
+[mcmc] Progress @ 2025-04-22 06:09:20 : 13167 steps taken, and 26232 accepted.
+[mcmc] Progress @ 2025-04-22 06:10:21 : 13214 steps taken, and 26252 accepted.
+[mcmc] Progress @ 2025-04-22 06:11:22 : 13261 steps taken, and 26270 accepted.
+[mcmc] Progress @ 2025-04-22 06:12:22 : 13308 steps taken, and 26293 accepted.
+[mcmc] Progress @ 2025-04-22 06:13:23 : 13356 steps taken, and 26312 accepted.
+[mcmc] Learn + convergence test @ 26320 samples accepted.
+[mcmc]  - Acceptance rate: 0.325
+[mcmc]  - Convergence of means: R-1 = 0.016613 after 21056 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 06:14:24 : 13404 steps taken, and 26326 accepted.
+[mcmc] Progress @ 2025-04-22 06:15:25 : 13451 steps taken, and 26341 accepted.
+[mcmc] Progress @ 2025-04-22 06:16:26 : 13498 steps taken, and 26354 accepted.
+[mcmc] Progress @ 2025-04-22 06:17:27 : 13547 steps taken, and 26367 accepted.
+[mcmc] Progress @ 2025-04-22 06:18:27 : 13593 steps taken, and 26384 accepted.
+[mcmc] Progress @ 2025-04-22 06:19:27 : 13640 steps taken, and 26393 accepted.
+[mcmc] Progress @ 2025-04-22 06:20:28 : 13688 steps taken, and 26410 accepted.
+[mcmc] Progress @ 2025-04-22 06:21:28 : 13735 steps taken, and 26429 accepted.
+[mcmc] Progress @ 2025-04-22 06:22:28 : 13783 steps taken, and 26447 accepted.
+[mcmc] Progress @ 2025-04-22 06:23:29 : 13830 steps taken, and 26463 accepted.
+[mcmc] Progress @ 2025-04-22 06:24:29 : 13877 steps taken, and 26476 accepted.
+[mcmc] Progress @ 2025-04-22 06:25:30 : 13924 steps taken, and 26494 accepted.
+[mcmc] Progress @ 2025-04-22 06:26:31 : 13975 steps taken, and 26505 accepted.
+[mcmc] Progress @ 2025-04-22 06:27:32 : 14022 steps taken, and 26522 accepted.
+[mcmc] Progress @ 2025-04-22 06:28:32 : 14073 steps taken, and 26534 accepted.
+[mcmc] Progress @ 2025-04-22 06:29:33 : 14120 steps taken, and 26548 accepted.
+[mcmc] Progress @ 2025-04-22 06:30:34 : 14167 steps taken, and 26568 accepted.
+[mcmc] Progress @ 2025-04-22 06:31:34 : 14215 steps taken, and 26587 accepted.
+[mcmc] Learn + convergence test @ 26600 samples accepted.
+[mcmc]  - Acceptance rate: 0.325
+[mcmc]  - Convergence of means: R-1 = 0.018718 after 21280 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 06:32:35 : 14263 steps taken, and 26602 accepted.
+[mcmc] Progress @ 2025-04-22 06:33:35 : 14311 steps taken, and 26613 accepted.
+[mcmc] Progress @ 2025-04-22 06:34:35 : 14357 steps taken, and 26625 accepted.
+[mcmc] Progress @ 2025-04-22 06:35:36 : 14405 steps taken, and 26637 accepted.
+[mcmc] Progress @ 2025-04-22 06:36:38 : 14454 steps taken, and 26655 accepted.
+[mcmc] Progress @ 2025-04-22 06:37:38 : 14501 steps taken, and 26673 accepted.
+[mcmc] Progress @ 2025-04-22 06:38:39 : 14549 steps taken, and 26685 accepted.
+[mcmc] Progress @ 2025-04-22 06:39:39 : 14595 steps taken, and 26700 accepted.
+[mcmc] Progress @ 2025-04-22 06:40:39 : 14642 steps taken, and 26724 accepted.
+[mcmc] Progress @ 2025-04-22 06:41:40 : 14688 steps taken, and 26745 accepted.
+[mcmc] Progress @ 2025-04-22 06:42:41 : 14735 steps taken, and 26759 accepted.
+[mcmc] Progress @ 2025-04-22 06:43:41 : 14782 steps taken, and 26774 accepted.
+[mcmc] Progress @ 2025-04-22 06:44:42 : 14829 steps taken, and 26787 accepted.
+[mcmc] Progress @ 2025-04-22 06:45:42 : 14876 steps taken, and 26806 accepted.
+[mcmc] Progress @ 2025-04-22 06:46:43 : 14925 steps taken, and 26821 accepted.
+[mcmc] Progress @ 2025-04-22 06:47:43 : 14972 steps taken, and 26836 accepted.
+[mcmc] Progress @ 2025-04-22 06:48:44 : 15019 steps taken, and 26849 accepted.
+[mcmc] Progress @ 2025-04-22 06:49:44 : 15066 steps taken, and 26866 accepted.
+[mcmc] Learn + convergence test @ 26880 samples accepted.
+[mcmc]  - Acceptance rate: 0.325
+[mcmc]  - Convergence of means: R-1 = 0.017396 after 21504 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 06:50:44 : 15113 steps taken, and 26884 accepted.
+[mcmc] Progress @ 2025-04-22 06:51:45 : 15161 steps taken, and 26900 accepted.
+[mcmc] Progress @ 2025-04-22 06:52:45 : 15208 steps taken, and 26915 accepted.
+[mcmc] Progress @ 2025-04-22 06:53:46 : 15255 steps taken, and 26933 accepted.
+[mcmc] Progress @ 2025-04-22 06:54:47 : 15302 steps taken, and 26945 accepted.
+[mcmc] Progress @ 2025-04-22 06:55:48 : 15349 steps taken, and 26963 accepted.
+[mcmc] Progress @ 2025-04-22 06:56:48 : 15395 steps taken, and 26973 accepted.
+[mcmc] Progress @ 2025-04-22 06:57:50 : 15448 steps taken, and 26988 accepted.
+[mcmc] Progress @ 2025-04-22 06:58:50 : 15496 steps taken, and 27002 accepted.
+[mcmc] Progress @ 2025-04-22 06:59:51 : 15543 steps taken, and 27022 accepted.
+[mcmc] Progress @ 2025-04-22 07:00:52 : 15590 steps taken, and 27035 accepted.
+[mcmc] Progress @ 2025-04-22 07:01:53 : 15637 steps taken, and 27054 accepted.
+[mcmc] Progress @ 2025-04-22 07:02:53 : 15684 steps taken, and 27069 accepted.
+[mcmc] Progress @ 2025-04-22 07:03:54 : 15731 steps taken, and 27084 accepted.
+[mcmc] Progress @ 2025-04-22 07:04:54 : 15778 steps taken, and 27107 accepted.
+[mcmc] Progress @ 2025-04-22 07:05:55 : 15826 steps taken, and 27123 accepted.
+[mcmc] Progress @ 2025-04-22 07:06:56 : 15873 steps taken, and 27136 accepted.
+[mcmc] Progress @ 2025-04-22 07:07:56 : 15921 steps taken, and 27154 accepted.
+[mcmc] Learn + convergence test @ 27160 samples accepted.
+[mcmc]  - Acceptance rate: 0.325
+[mcmc]  - Convergence of means: R-1 = 0.018390 after 21728 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 07:08:57 : 15970 steps taken, and 27167 accepted.
+[mcmc] Progress @ 2025-04-22 07:09:58 : 16020 steps taken, and 27181 accepted.
+[mcmc] Progress @ 2025-04-22 07:10:58 : 16069 steps taken, and 27201 accepted.
+[mcmc] Progress @ 2025-04-22 07:11:59 : 16117 steps taken, and 27222 accepted.
+[mcmc] Progress @ 2025-04-22 07:12:59 : 16168 steps taken, and 27234 accepted.
+[mcmc] Progress @ 2025-04-22 07:14:00 : 16219 steps taken, and 27247 accepted.
+[mcmc] Progress @ 2025-04-22 07:15:02 : 16269 steps taken, and 27256 accepted.
+[mcmc] Progress @ 2025-04-22 07:16:02 : 16318 steps taken, and 27272 accepted.
+[mcmc] Progress @ 2025-04-22 07:17:03 : 16366 steps taken, and 27287 accepted.
+[mcmc] Progress @ 2025-04-22 07:18:03 : 16417 steps taken, and 27303 accepted.
+[mcmc] Progress @ 2025-04-22 07:19:04 : 16468 steps taken, and 27311 accepted.
+[mcmc] Progress @ 2025-04-22 07:20:05 : 16514 steps taken, and 27323 accepted.
+[mcmc] Progress @ 2025-04-22 07:21:05 : 16561 steps taken, and 27340 accepted.
+[mcmc] Progress @ 2025-04-22 07:22:05 : 16608 steps taken, and 27352 accepted.
+[mcmc] Progress @ 2025-04-22 07:23:05 : 16658 steps taken, and 27363 accepted.
+[mcmc] Progress @ 2025-04-22 07:24:06 : 16706 steps taken, and 27380 accepted.
+[mcmc] Progress @ 2025-04-22 07:25:07 : 16753 steps taken, and 27391 accepted.
+[mcmc] Progress @ 2025-04-22 07:26:08 : 16799 steps taken, and 27404 accepted.
+[mcmc] Progress @ 2025-04-22 07:27:08 : 16845 steps taken, and 27418 accepted.
+[mcmc] Progress @ 2025-04-22 07:28:09 : 16892 steps taken, and 27431 accepted.
+[mcmc] Learn + convergence test @ 27440 samples accepted.
+[mcmc]  - Acceptance rate: 0.324
+[mcmc]  - Convergence of means: R-1 = 0.020970 after 21952 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 07:29:10 : 16940 steps taken, and 27452 accepted.
+[mcmc] Progress @ 2025-04-22 07:30:11 : 16987 steps taken, and 27467 accepted.
+[mcmc] Progress @ 2025-04-22 07:31:12 : 17033 steps taken, and 27488 accepted.
+[mcmc] Progress @ 2025-04-22 07:32:12 : 17080 steps taken, and 27504 accepted.
+[mcmc] Progress @ 2025-04-22 07:33:12 : 17126 steps taken, and 27518 accepted.
+[mcmc] Progress @ 2025-04-22 07:34:13 : 17173 steps taken, and 27539 accepted.
+[mcmc] Progress @ 2025-04-22 07:35:13 : 17219 steps taken, and 27554 accepted.
+[mcmc] Progress @ 2025-04-22 07:36:15 : 17269 steps taken, and 27574 accepted.
+[mcmc] Progress @ 2025-04-22 07:37:16 : 17316 steps taken, and 27588 accepted.
+[mcmc] Progress @ 2025-04-22 07:38:17 : 17365 steps taken, and 27605 accepted.
+[mcmc] Progress @ 2025-04-22 07:39:18 : 17433 steps taken, and 27619 accepted.
+[mcmc] Progress @ 2025-04-22 07:40:19 : 17518 steps taken, and 27625 accepted.
+[mcmc] Progress @ 2025-04-22 07:41:19 : 17579 steps taken, and 27634 accepted.
+[mcmc] Progress @ 2025-04-22 07:42:20 : 17624 steps taken, and 27650 accepted.
+[mcmc] Progress @ 2025-04-22 07:43:21 : 17670 steps taken, and 27666 accepted.
+[mcmc] Progress @ 2025-04-22 07:44:22 : 17715 steps taken, and 27677 accepted.
+[mcmc] Progress @ 2025-04-22 07:45:22 : 17765 steps taken, and 27692 accepted.
+[mcmc] Progress @ 2025-04-22 07:46:24 : 17812 steps taken, and 27705 accepted.
+[mcmc] Progress @ 2025-04-22 07:47:25 : 17860 steps taken, and 27717 accepted.
+[mcmc] Learn + convergence test @ 27720 samples accepted.
+[mcmc]  - Acceptance rate: 0.324
+[mcmc]  - Convergence of means: R-1 = 0.019587 after 22176 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 07:48:26 : 17908 steps taken, and 27739 accepted.
+[mcmc] Progress @ 2025-04-22 07:49:27 : 17956 steps taken, and 27757 accepted.
+[mcmc] Progress @ 2025-04-22 07:50:28 : 18005 steps taken, and 27777 accepted.
+[mcmc] Progress @ 2025-04-22 07:51:29 : 18053 steps taken, and 27792 accepted.
+[mcmc] Progress @ 2025-04-22 07:52:30 : 18101 steps taken, and 27811 accepted.
+[mcmc] Progress @ 2025-04-22 07:53:30 : 18149 steps taken, and 27828 accepted.
+[mcmc] Progress @ 2025-04-22 07:54:31 : 18197 steps taken, and 27844 accepted.
+[mcmc] Progress @ 2025-04-22 07:55:32 : 18244 steps taken, and 27860 accepted.
+[mcmc] Progress @ 2025-04-22 07:56:32 : 18291 steps taken, and 27876 accepted.
+[mcmc] Progress @ 2025-04-22 07:57:33 : 18360 steps taken, and 27891 accepted.
+[mcmc] Progress @ 2025-04-22 07:58:33 : 18409 steps taken, and 27906 accepted.
+[mcmc] Progress @ 2025-04-22 07:59:34 : 18457 steps taken, and 27920 accepted.
+[mcmc] Progress @ 2025-04-22 08:00:34 : 18503 steps taken, and 27939 accepted.
+[mcmc] Progress @ 2025-04-22 08:01:35 : 18550 steps taken, and 27954 accepted.
+[mcmc] Progress @ 2025-04-22 08:02:35 : 18597 steps taken, and 27977 accepted.
+[mcmc] Progress @ 2025-04-22 08:03:36 : 18645 steps taken, and 27993 accepted.
+[mcmc] Learn + convergence test @ 28000 samples accepted.
+[mcmc]  - Acceptance rate: 0.324
+[mcmc]  - Convergence of means: R-1 = 0.017076 after 22400 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 08:04:37 : 18692 steps taken, and 28010 accepted.
+[mcmc] Progress @ 2025-04-22 08:05:38 : 18743 steps taken, and 28021 accepted.
+[mcmc] Progress @ 2025-04-22 08:06:38 : 18789 steps taken, and 28041 accepted.
+[mcmc] Progress @ 2025-04-22 08:07:39 : 18835 steps taken, and 28058 accepted.
+[mcmc] Progress @ 2025-04-22 08:08:41 : 18881 steps taken, and 28073 accepted.
+[mcmc] Progress @ 2025-04-22 08:09:41 : 18922 steps taken, and 28085 accepted.
+[mcmc] Progress @ 2025-04-22 08:10:41 : 18968 steps taken, and 28106 accepted.
+[mcmc] Progress @ 2025-04-22 08:11:41 : 19014 steps taken, and 28123 accepted.
+[mcmc] Progress @ 2025-04-22 08:12:42 : 19061 steps taken, and 28141 accepted.
+[mcmc] Progress @ 2025-04-22 08:13:42 : 19108 steps taken, and 28153 accepted.
+[mcmc] Progress @ 2025-04-22 08:14:42 : 19156 steps taken, and 28172 accepted.
+[mcmc] Progress @ 2025-04-22 08:15:44 : 19202 steps taken, and 28185 accepted.
+[mcmc] Progress @ 2025-04-22 08:16:45 : 19250 steps taken, and 28201 accepted.
+[mcmc] Progress @ 2025-04-22 08:17:46 : 19299 steps taken, and 28217 accepted.
+[mcmc] Progress @ 2025-04-22 08:18:46 : 19347 steps taken, and 28231 accepted.
+[mcmc] Progress @ 2025-04-22 08:19:47 : 19396 steps taken, and 28252 accepted.
+[mcmc] Progress @ 2025-04-22 08:20:48 : 19442 steps taken, and 28270 accepted.
+[mcmc] Learn + convergence test @ 28280 samples accepted.
+[mcmc]  - Acceptance rate: 0.324
+[mcmc]  - Convergence of means: R-1 = 0.016946 after 22624 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 08:21:49 : 19489 steps taken, and 28287 accepted.
+[mcmc] Progress @ 2025-04-22 08:22:49 : 19535 steps taken, and 28306 accepted.
+[mcmc] Progress @ 2025-04-22 08:23:50 : 19582 steps taken, and 28317 accepted.
+[mcmc] Progress @ 2025-04-22 08:24:50 : 19629 steps taken, and 28329 accepted.
+[mcmc] Progress @ 2025-04-22 08:25:51 : 19675 steps taken, and 28340 accepted.
+[mcmc] Progress @ 2025-04-22 08:26:51 : 19722 steps taken, and 28352 accepted.
+[mcmc] Progress @ 2025-04-22 08:27:52 : 19770 steps taken, and 28369 accepted.
+[mcmc] Progress @ 2025-04-22 08:28:52 : 19817 steps taken, and 28382 accepted.
+ Warning: xe at redshift zero is < 1
+ Check input parameters an Reionization_xe
+ function in the Reionization module
+[mcmc] Progress @ 2025-04-22 08:29:53 : 19864 steps taken, and 28398 accepted.
+[mcmc] Progress @ 2025-04-22 08:30:54 : 19912 steps taken, and 28423 accepted.
+[mcmc] Progress @ 2025-04-22 08:31:54 : 19959 steps taken, and 28438 accepted.
+[mcmc] Progress @ 2025-04-22 08:32:55 : 20008 steps taken, and 28454 accepted.
+[mcmc] Progress @ 2025-04-22 08:33:56 : 20056 steps taken, and 28469 accepted.
+[mcmc] Progress @ 2025-04-22 08:34:57 : 20103 steps taken, and 28491 accepted.
+[mcmc] Progress @ 2025-04-22 08:35:59 : 20150 steps taken, and 28508 accepted.
+[mcmc] Progress @ 2025-04-22 08:36:59 : 20196 steps taken, and 28521 accepted.
+[mcmc] Progress @ 2025-04-22 08:38:00 : 20243 steps taken, and 28535 accepted.
+[mcmc] Progress @ 2025-04-22 08:39:01 : 20291 steps taken, and 28556 accepted.
+[mcmc] Learn + convergence test @ 28560 samples accepted.
+[mcmc]  - Acceptance rate: 0.324
+[mcmc]  - Convergence of means: R-1 = 0.015783 after 22848 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 08:40:02 : 20338 steps taken, and 28571 accepted.
+[mcmc] Progress @ 2025-04-22 08:41:02 : 20385 steps taken, and 28588 accepted.
+[mcmc] Progress @ 2025-04-22 08:42:03 : 20431 steps taken, and 28601 accepted.
+[mcmc] Progress @ 2025-04-22 08:43:03 : 20477 steps taken, and 28620 accepted.
+[mcmc] Progress @ 2025-04-22 08:44:03 : 20525 steps taken, and 28634 accepted.
+[mcmc] Progress @ 2025-04-22 08:45:03 : 20575 steps taken, and 28652 accepted.
+[mcmc] Progress @ 2025-04-22 08:46:04 : 20622 steps taken, and 28666 accepted.
+[mcmc] Progress @ 2025-04-22 08:47:04 : 20669 steps taken, and 28681 accepted.
+[mcmc] Progress @ 2025-04-22 08:48:04 : 20715 steps taken, and 28699 accepted.
+[mcmc] Progress @ 2025-04-22 08:49:05 : 20761 steps taken, and 28717 accepted.
+[mcmc] Progress @ 2025-04-22 08:50:05 : 20808 steps taken, and 28733 accepted.
+[mcmc] Progress @ 2025-04-22 08:51:05 : 20854 steps taken, and 28746 accepted.
+[mcmc] Progress @ 2025-04-22 08:52:06 : 20901 steps taken, and 28758 accepted.
+[mcmc] Progress @ 2025-04-22 08:53:06 : 20947 steps taken, and 28773 accepted.
+[mcmc] Progress @ 2025-04-22 08:54:07 : 20994 steps taken, and 28792 accepted.
+[mcmc] Progress @ 2025-04-22 08:55:09 : 21042 steps taken, and 28808 accepted.
+[mcmc] Progress @ 2025-04-22 08:56:10 : 21084 steps taken, and 28823 accepted.
+[mcmc] Progress @ 2025-04-22 08:57:13 : 21106 steps taken, and 28828 accepted.
+[mcmc] Progress @ 2025-04-22 08:58:14 : 21138 steps taken, and 28835 accepted.
+[mcmc] Learn + convergence test @ 28840 samples accepted.
+[mcmc]  - Acceptance rate: 0.324
+[mcmc]  - Convergence of means: R-1 = 0.013373 after 23072 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 08:59:15 : 21186 steps taken, and 28850 accepted.
+[mcmc] Progress @ 2025-04-22 09:00:16 : 21234 steps taken, and 28870 accepted.
+[mcmc] Progress @ 2025-04-22 09:01:17 : 21282 steps taken, and 28889 accepted.
+[mcmc] Progress @ 2025-04-22 09:02:18 : 21330 steps taken, and 28903 accepted.
+[mcmc] Progress @ 2025-04-22 09:03:18 : 21375 steps taken, and 28916 accepted.
+[mcmc] Progress @ 2025-04-22 09:04:18 : 21422 steps taken, and 28927 accepted.
+[mcmc] Progress @ 2025-04-22 09:05:18 : 21468 steps taken, and 28944 accepted.
+[mcmc] Progress @ 2025-04-22 09:06:20 : 21515 steps taken, and 28960 accepted.
+[mcmc] Progress @ 2025-04-22 09:07:20 : 21561 steps taken, and 28973 accepted.
+[mcmc] Progress @ 2025-04-22 09:08:21 : 21609 steps taken, and 28990 accepted.
+[mcmc] Progress @ 2025-04-22 09:09:22 : 21656 steps taken, and 29006 accepted.
+[mcmc] Progress @ 2025-04-22 09:10:23 : 21703 steps taken, and 29024 accepted.
+[mcmc] Progress @ 2025-04-22 09:11:24 : 21750 steps taken, and 29034 accepted.
+[mcmc] Progress @ 2025-04-22 09:12:24 : 21797 steps taken, and 29050 accepted.
+[mcmc] Progress @ 2025-04-22 09:13:25 : 21843 steps taken, and 29063 accepted.
+[mcmc] Progress @ 2025-04-22 09:14:26 : 21897 steps taken, and 29076 accepted.
+[mcmc] Progress @ 2025-04-22 09:15:26 : 21943 steps taken, and 29095 accepted.
+[mcmc] Progress @ 2025-04-22 09:16:26 : 21990 steps taken, and 29111 accepted.
+[mcmc] Learn + convergence test @ 29120 samples accepted.
+[mcmc]  - Acceptance rate: 0.324
+[mcmc]  - Convergence of means: R-1 = 0.014167 after 23296 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 09:17:26 : 22036 steps taken, and 29126 accepted.
+[mcmc] Progress @ 2025-04-22 09:18:27 : 22082 steps taken, and 29147 accepted.
+[mcmc] Progress @ 2025-04-22 09:19:27 : 22129 steps taken, and 29163 accepted.
+[mcmc] Progress @ 2025-04-22 09:20:28 : 22175 steps taken, and 29180 accepted.
+[mcmc] Progress @ 2025-04-22 09:21:28 : 22222 steps taken, and 29196 accepted.
+[mcmc] Progress @ 2025-04-22 09:22:29 : 22269 steps taken, and 29215 accepted.
+[mcmc] Progress @ 2025-04-22 09:23:30 : 22315 steps taken, and 29229 accepted.
+[mcmc] Progress @ 2025-04-22 09:24:30 : 22361 steps taken, and 29245 accepted.
+[mcmc] Progress @ 2025-04-22 09:25:31 : 22410 steps taken, and 29253 accepted.
+[mcmc] Progress @ 2025-04-22 09:26:32 : 22460 steps taken, and 29263 accepted.
+[mcmc] Progress @ 2025-04-22 09:27:33 : 22506 steps taken, and 29278 accepted.
+[mcmc] Progress @ 2025-04-22 09:28:33 : 22552 steps taken, and 29291 accepted.
+[mcmc] Progress @ 2025-04-22 09:29:34 : 22600 steps taken, and 29308 accepted.
+[mcmc] Progress @ 2025-04-22 09:30:35 : 22637 steps taken, and 29317 accepted.
+[mcmc] Progress @ 2025-04-22 09:31:35 : 22669 steps taken, and 29324 accepted.
+[mcmc] Progress @ 2025-04-22 09:32:35 : 22716 steps taken, and 29340 accepted.
+[mcmc] Progress @ 2025-04-22 09:33:37 : 22763 steps taken, and 29354 accepted.
+[mcmc] Progress @ 2025-04-22 09:34:37 : 22809 steps taken, and 29372 accepted.
+[mcmc] Progress @ 2025-04-22 09:35:38 : 22856 steps taken, and 29386 accepted.
+[mcmc] Progress @ 2025-04-22 09:36:39 : 22904 steps taken, and 29399 accepted.
+[mcmc] Learn + convergence test @ 29400 samples accepted.
+[mcmc]  - Acceptance rate: 0.324
+[mcmc]  - Convergence of means: R-1 = 0.015894 after 23520 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 09:37:40 : 22951 steps taken, and 29412 accepted.
+[mcmc] Progress @ 2025-04-22 09:38:41 : 22997 steps taken, and 29430 accepted.
+[mcmc] Progress @ 2025-04-22 09:39:41 : 23043 steps taken, and 29450 accepted.
+[mcmc] Progress @ 2025-04-22 09:40:41 : 23091 steps taken, and 29469 accepted.
+[mcmc] Progress @ 2025-04-22 09:41:41 : 23139 steps taken, and 29487 accepted.
+[mcmc] Progress @ 2025-04-22 09:42:41 : 23187 steps taken, and 29498 accepted.
+[mcmc] Progress @ 2025-04-22 09:43:42 : 23233 steps taken, and 29517 accepted.
+[mcmc] Progress @ 2025-04-22 09:44:43 : 23280 steps taken, and 29540 accepted.
+[mcmc] Progress @ 2025-04-22 09:45:43 : 23326 steps taken, and 29560 accepted.
+[mcmc] Progress @ 2025-04-22 09:46:44 : 23372 steps taken, and 29578 accepted.
+[mcmc] Progress @ 2025-04-22 09:47:44 : 23418 steps taken, and 29592 accepted.
+[mcmc] Progress @ 2025-04-22 09:48:45 : 23464 steps taken, and 29610 accepted.
+[mcmc] Progress @ 2025-04-22 09:49:45 : 23510 steps taken, and 29634 accepted.
+[mcmc] Progress @ 2025-04-22 09:50:46 : 23557 steps taken, and 29646 accepted.
+[mcmc] Progress @ 2025-04-22 09:51:47 : 23604 steps taken, and 29658 accepted.
+[mcmc] Progress @ 2025-04-22 09:52:47 : 23650 steps taken, and 29678 accepted.
+[mcmc] Learn + convergence test @ 29680 samples accepted.
+[mcmc]  - Acceptance rate: 0.325
+[mcmc]  - Convergence of means: R-1 = 0.016323 after 23744 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 09:53:48 : 23696 steps taken, and 29687 accepted.
+[mcmc] Progress @ 2025-04-22 09:54:49 : 23744 steps taken, and 29697 accepted.
+[mcmc] Progress @ 2025-04-22 09:55:50 : 23790 steps taken, and 29709 accepted.
+[mcmc] Progress @ 2025-04-22 09:56:51 : 23838 steps taken, and 29727 accepted.
+[mcmc] Progress @ 2025-04-22 09:57:52 : 23884 steps taken, and 29739 accepted.
+[mcmc] Progress @ 2025-04-22 09:58:53 : 23932 steps taken, and 29758 accepted.
+[mcmc] Progress @ 2025-04-22 09:59:54 : 23978 steps taken, and 29775 accepted.
+[mcmc] Progress @ 2025-04-22 10:00:55 : 24025 steps taken, and 29789 accepted.
+[mcmc] Progress @ 2025-04-22 10:01:55 : 24071 steps taken, and 29801 accepted.
+[mcmc] Progress @ 2025-04-22 10:02:55 : 24117 steps taken, and 29813 accepted.
+[mcmc] Progress @ 2025-04-22 10:03:57 : 24164 steps taken, and 29818 accepted.
+[mcmc] Progress @ 2025-04-22 10:04:58 : 24210 steps taken, and 29837 accepted.
+[mcmc] Progress @ 2025-04-22 10:05:58 : 24258 steps taken, and 29854 accepted.
+[mcmc] Progress @ 2025-04-22 10:06:59 : 24306 steps taken, and 29870 accepted.
+[mcmc] Progress @ 2025-04-22 10:08:01 : 24354 steps taken, and 29886 accepted.
+[mcmc] Progress @ 2025-04-22 10:09:01 : 24401 steps taken, and 29901 accepted.
+[mcmc] Progress @ 2025-04-22 10:10:01 : 24447 steps taken, and 29917 accepted.
+[mcmc] Progress @ 2025-04-22 10:11:02 : 24495 steps taken, and 29926 accepted.
+[mcmc] Progress @ 2025-04-22 10:12:02 : 24542 steps taken, and 29939 accepted.
+[mcmc] Progress @ 2025-04-22 10:13:03 : 24588 steps taken, and 29953 accepted.
+[mcmc] Learn + convergence test @ 29960 samples accepted.
+[mcmc]  - Acceptance rate: 0.325
+[mcmc]  - Convergence of means: R-1 = 0.018387 after 23968 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 10:14:04 : 24635 steps taken, and 29971 accepted.
+[mcmc] Progress @ 2025-04-22 10:15:05 : 24682 steps taken, and 29986 accepted.
+[mcmc] Progress @ 2025-04-22 10:16:05 : 24732 steps taken, and 29996 accepted.
+[mcmc] Progress @ 2025-04-22 10:17:06 : 24779 steps taken, and 30015 accepted.
+[mcmc] Progress @ 2025-04-22 10:18:07 : 24826 steps taken, and 30035 accepted.
+[mcmc] Progress @ 2025-04-22 10:19:08 : 24873 steps taken, and 30046 accepted.
+[mcmc] Progress @ 2025-04-22 10:20:09 : 24919 steps taken, and 30063 accepted.
+[mcmc] Progress @ 2025-04-22 10:21:10 : 24966 steps taken, and 30082 accepted.
+[mcmc] Progress @ 2025-04-22 10:22:11 : 25013 steps taken, and 30097 accepted.
+[mcmc] Progress @ 2025-04-22 10:23:11 : 25060 steps taken, and 30108 accepted.
+[mcmc] Progress @ 2025-04-22 10:24:12 : 25108 steps taken, and 30124 accepted.
+[mcmc] Progress @ 2025-04-22 10:25:12 : 25154 steps taken, and 30140 accepted.
+[mcmc] Progress @ 2025-04-22 10:26:13 : 25199 steps taken, and 30157 accepted.
+[mcmc] Progress @ 2025-04-22 10:27:13 : 25245 steps taken, and 30172 accepted.
+[mcmc] Progress @ 2025-04-22 10:28:14 : 25292 steps taken, and 30185 accepted.
+[mcmc] Progress @ 2025-04-22 10:29:15 : 25338 steps taken, and 30207 accepted.
+[mcmc] Progress @ 2025-04-22 10:30:16 : 25385 steps taken, and 30218 accepted.
+[mcmc] Progress @ 2025-04-22 10:31:16 : 25431 steps taken, and 30234 accepted.
+[mcmc] Learn + convergence test @ 30240 samples accepted.
+[mcmc]  - Acceptance rate: 0.325
+[mcmc]  - Convergence of means: R-1 = 0.014195 after 24192 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 10:32:17 : 25478 steps taken, and 30245 accepted.
+[mcmc] Progress @ 2025-04-22 10:33:18 : 25525 steps taken, and 30264 accepted.
+[mcmc] Progress @ 2025-04-22 10:34:18 : 25571 steps taken, and 30276 accepted.
+[mcmc] Progress @ 2025-04-22 10:35:20 : 25619 steps taken, and 30290 accepted.
+[mcmc] Progress @ 2025-04-22 10:36:21 : 25665 steps taken, and 30309 accepted.
+[mcmc] Progress @ 2025-04-22 10:37:22 : 25711 steps taken, and 30326 accepted.
+[mcmc] Progress @ 2025-04-22 10:38:22 : 25757 steps taken, and 30338 accepted.
+[mcmc] Progress @ 2025-04-22 10:39:23 : 25803 steps taken, and 30350 accepted.
+[mcmc] Progress @ 2025-04-22 10:40:24 : 25853 steps taken, and 30370 accepted.
+[mcmc] Progress @ 2025-04-22 10:41:24 : 25898 steps taken, and 30383 accepted.
+[mcmc] Progress @ 2025-04-22 10:42:24 : 25944 steps taken, and 30402 accepted.
+[mcmc] Progress @ 2025-04-22 10:43:25 : 25991 steps taken, and 30419 accepted.
+[mcmc] Progress @ 2025-04-22 10:44:26 : 26037 steps taken, and 30437 accepted.
+[mcmc] Progress @ 2025-04-22 10:45:27 : 26084 steps taken, and 30457 accepted.
+[mcmc] Progress @ 2025-04-22 10:46:27 : 26130 steps taken, and 30476 accepted.
+[mcmc] Progress @ 2025-04-22 10:47:28 : 26176 steps taken, and 30488 accepted.
+[mcmc] Progress @ 2025-04-22 10:48:29 : 26222 steps taken, and 30503 accepted.
+[mcmc] Progress @ 2025-04-22 10:49:30 : 26269 steps taken, and 30517 accepted.
+[mcmc] Learn + convergence test @ 30520 samples accepted.
+[mcmc]  - Acceptance rate: 0.325
+[mcmc]  - Convergence of means: R-1 = 0.014181 after 24416 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 10:50:31 : 26316 steps taken, and 30538 accepted.
+[mcmc] Progress @ 2025-04-22 10:51:31 : 26362 steps taken, and 30551 accepted.
+[mcmc] Progress @ 2025-04-22 10:52:32 : 26410 steps taken, and 30565 accepted.
+[mcmc] Progress @ 2025-04-22 10:53:33 : 26456 steps taken, and 30577 accepted.
+[mcmc] Progress @ 2025-04-22 10:54:34 : 26502 steps taken, and 30592 accepted.
+[mcmc] Progress @ 2025-04-22 10:55:34 : 26548 steps taken, and 30611 accepted.
+[mcmc] Progress @ 2025-04-22 10:56:35 : 26595 steps taken, and 30627 accepted.
+[mcmc] Progress @ 2025-04-22 10:57:36 : 26644 steps taken, and 30636 accepted.
+[mcmc] Progress @ 2025-04-22 10:58:37 : 26691 steps taken, and 30653 accepted.
+[mcmc] Progress @ 2025-04-22 10:59:37 : 26737 steps taken, and 30666 accepted.
+[mcmc] Progress @ 2025-04-22 11:00:37 : 26783 steps taken, and 30675 accepted.
+[mcmc] Progress @ 2025-04-22 11:01:39 : 26830 steps taken, and 30690 accepted.
+[mcmc] Progress @ 2025-04-22 11:02:40 : 26878 steps taken, and 30708 accepted.
+[mcmc] Progress @ 2025-04-22 11:03:41 : 26927 steps taken, and 30726 accepted.
+[mcmc] Progress @ 2025-04-22 11:04:41 : 26974 steps taken, and 30746 accepted.
+[mcmc] Progress @ 2025-04-22 11:05:43 : 27021 steps taken, and 30756 accepted.
+[mcmc] Progress @ 2025-04-22 11:06:43 : 27067 steps taken, and 30775 accepted.
+[mcmc] Progress @ 2025-04-22 11:07:44 : 27113 steps taken, and 30794 accepted.
+[mcmc] Learn + convergence test @ 30800 samples accepted.
+[mcmc]  - Acceptance rate: 0.325
+[mcmc]  - Convergence of means: R-1 = 0.015026 after 24640 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 11:08:45 : 27161 steps taken, and 30806 accepted.
+[mcmc] Progress @ 2025-04-22 11:09:45 : 27207 steps taken, and 30819 accepted.
+[mcmc] Progress @ 2025-04-22 11:10:46 : 27254 steps taken, and 30830 accepted.
+[mcmc] Progress @ 2025-04-22 11:11:46 : 27302 steps taken, and 30840 accepted.
+[mcmc] Progress @ 2025-04-22 11:12:48 : 27349 steps taken, and 30853 accepted.
+[mcmc] Progress @ 2025-04-22 11:13:48 : 27395 steps taken, and 30870 accepted.
+[mcmc] Progress @ 2025-04-22 11:14:49 : 27441 steps taken, and 30883 accepted.
+[mcmc] Progress @ 2025-04-22 11:15:50 : 27488 steps taken, and 30899 accepted.
+[mcmc] Progress @ 2025-04-22 11:16:51 : 27534 steps taken, and 30915 accepted.
+[mcmc] Progress @ 2025-04-22 11:17:51 : 27581 steps taken, and 30932 accepted.
+[mcmc] Progress @ 2025-04-22 11:18:51 : 27628 steps taken, and 30941 accepted.
+[mcmc] Progress @ 2025-04-22 11:19:52 : 27675 steps taken, and 30953 accepted.
+[mcmc] Progress @ 2025-04-22 11:20:52 : 27721 steps taken, and 30967 accepted.
+[mcmc] Progress @ 2025-04-22 11:21:53 : 27769 steps taken, and 30984 accepted.
+[mcmc] Progress @ 2025-04-22 11:22:54 : 27815 steps taken, and 31001 accepted.
+[mcmc] Progress @ 2025-04-22 11:23:55 : 27862 steps taken, and 31019 accepted.
+[mcmc] Progress @ 2025-04-22 11:24:56 : 27908 steps taken, and 31036 accepted.
+[mcmc] Progress @ 2025-04-22 11:25:56 : 27954 steps taken, and 31052 accepted.
+[mcmc] Progress @ 2025-04-22 11:26:56 : 28005 steps taken, and 31072 accepted.
+[mcmc] Learn + convergence test @ 31080 samples accepted.
+[mcmc]  - Acceptance rate: 0.325
+[mcmc]  - Convergence of means: R-1 = 0.016184 after 24864 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 11:27:57 : 28050 steps taken, and 31087 accepted.
+[mcmc] Progress @ 2025-04-22 11:28:57 : 28096 steps taken, and 31099 accepted.
+[mcmc] Progress @ 2025-04-22 11:29:59 : 28142 steps taken, and 31115 accepted.
+[mcmc] Progress @ 2025-04-22 11:30:59 : 28188 steps taken, and 31129 accepted.
+[mcmc] Progress @ 2025-04-22 11:31:59 : 28234 steps taken, and 31147 accepted.
+[mcmc] Progress @ 2025-04-22 11:33:00 : 28280 steps taken, and 31159 accepted.
+[mcmc] Progress @ 2025-04-22 11:34:02 : 28329 steps taken, and 31171 accepted.
+[mcmc] Progress @ 2025-04-22 11:35:03 : 28376 steps taken, and 31189 accepted.
+[mcmc] Progress @ 2025-04-22 11:36:03 : 28424 steps taken, and 31204 accepted.
+[mcmc] Progress @ 2025-04-22 11:37:05 : 28471 steps taken, and 31219 accepted.
+[mcmc] Progress @ 2025-04-22 11:38:06 : 28519 steps taken, and 31234 accepted.
+[mcmc] Progress @ 2025-04-22 11:39:06 : 28565 steps taken, and 31247 accepted.
+[mcmc] Progress @ 2025-04-22 11:40:06 : 28611 steps taken, and 31257 accepted.
+[mcmc] Progress @ 2025-04-22 11:41:07 : 28657 steps taken, and 31270 accepted.
+[mcmc] Progress @ 2025-04-22 11:42:08 : 28704 steps taken, and 31289 accepted.
+[mcmc] Progress @ 2025-04-22 11:43:09 : 28750 steps taken, and 31297 accepted.
+[mcmc] Progress @ 2025-04-22 11:44:10 : 28797 steps taken, and 31305 accepted.
+[mcmc] Progress @ 2025-04-22 11:45:11 : 28845 steps taken, and 31321 accepted.
+[mcmc] Progress @ 2025-04-22 11:46:12 : 28895 steps taken, and 31334 accepted.
+[mcmc] Progress @ 2025-04-22 11:47:13 : 28941 steps taken, and 31350 accepted.
+[mcmc] Learn + convergence test @ 31360 samples accepted.
+[mcmc]  - Acceptance rate: 0.324
+[mcmc]  - Convergence of means: R-1 = 0.018129 after 25088 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 11:48:13 : 28988 steps taken, and 31363 accepted.
+[mcmc] Progress @ 2025-04-22 11:49:13 : 29035 steps taken, and 31383 accepted.
+[mcmc] Progress @ 2025-04-22 11:50:14 : 29081 steps taken, and 31398 accepted.
+[mcmc] Progress @ 2025-04-22 11:51:14 : 29127 steps taken, and 31412 accepted.
+[mcmc] Progress @ 2025-04-22 11:52:15 : 29173 steps taken, and 31429 accepted.
+[mcmc] Progress @ 2025-04-22 11:53:15 : 29219 steps taken, and 31442 accepted.
+[mcmc] Progress @ 2025-04-22 11:54:16 : 29266 steps taken, and 31460 accepted.
+[mcmc] Progress @ 2025-04-22 11:55:17 : 29312 steps taken, and 31477 accepted.
+[mcmc] Progress @ 2025-04-22 11:56:17 : 29359 steps taken, and 31490 accepted.
+[mcmc] Progress @ 2025-04-22 11:57:18 : 29406 steps taken, and 31506 accepted.
+[mcmc] Progress @ 2025-04-22 11:58:19 : 29452 steps taken, and 31517 accepted.
+[mcmc] Progress @ 2025-04-22 11:59:20 : 29499 steps taken, and 31535 accepted.
+[mcmc] Progress @ 2025-04-22 12:00:20 : 29544 steps taken, and 31549 accepted.
+[mcmc] Progress @ 2025-04-22 12:01:22 : 29594 steps taken, and 31564 accepted.
+[mcmc] Progress @ 2025-04-22 12:02:22 : 29640 steps taken, and 31575 accepted.
+[mcmc] Progress @ 2025-04-22 12:03:23 : 29687 steps taken, and 31592 accepted.
+[mcmc] Progress @ 2025-04-22 12:04:24 : 29734 steps taken, and 31609 accepted.
+[mcmc] Progress @ 2025-04-22 12:05:24 : 29781 steps taken, and 31626 accepted.
+[mcmc] Progress @ 2025-04-22 12:06:25 : 29828 steps taken, and 31634 accepted.
+[mcmc] Learn + convergence test @ 31640 samples accepted.
+[mcmc]  - Acceptance rate: 0.324
+[mcmc]  - Convergence of means: R-1 = 0.017263 after 25312 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 12:07:25 : 29875 steps taken, and 31643 accepted.
+[mcmc] Progress @ 2025-04-22 12:08:27 : 29924 steps taken, and 31660 accepted.
+[mcmc] Progress @ 2025-04-22 12:09:28 : 29971 steps taken, and 31673 accepted.
+[mcmc] Progress @ 2025-04-22 12:10:29 : 30018 steps taken, and 31688 accepted.
+[mcmc] Progress @ 2025-04-22 12:11:29 : 30064 steps taken, and 31702 accepted.
+[mcmc] Progress @ 2025-04-22 12:12:30 : 30112 steps taken, and 31715 accepted.
+[mcmc] Progress @ 2025-04-22 12:13:30 : 30158 steps taken, and 31730 accepted.
+[mcmc] Progress @ 2025-04-22 12:14:31 : 30203 steps taken, and 31747 accepted.
+[mcmc] Progress @ 2025-04-22 12:15:32 : 30252 steps taken, and 31768 accepted.
+[mcmc] Progress @ 2025-04-22 12:16:33 : 30299 steps taken, and 31783 accepted.
+[mcmc] Progress @ 2025-04-22 12:17:33 : 30346 steps taken, and 31795 accepted.
+[mcmc] Progress @ 2025-04-22 12:18:33 : 30393 steps taken, and 31812 accepted.
+[mcmc] Progress @ 2025-04-22 12:19:35 : 30439 steps taken, and 31831 accepted.
+[mcmc] Progress @ 2025-04-22 12:20:35 : 30487 steps taken, and 31848 accepted.
+[mcmc] Progress @ 2025-04-22 12:21:36 : 30533 steps taken, and 31862 accepted.
+[mcmc] Progress @ 2025-04-22 12:22:37 : 30580 steps taken, and 31874 accepted.
+[mcmc] Progress @ 2025-04-22 12:23:38 : 30627 steps taken, and 31885 accepted.
+[mcmc] Progress @ 2025-04-22 12:24:38 : 30674 steps taken, and 31899 accepted.
+[mcmc] Progress @ 2025-04-22 12:25:39 : 30720 steps taken, and 31913 accepted.
+[mcmc] Learn + convergence test @ 31920 samples accepted.
+[mcmc]  - Acceptance rate: 0.324
+[mcmc]  - Convergence of means: R-1 = 0.019012 after 25536 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 12:26:39 : 30768 steps taken, and 31926 accepted.
+[mcmc] Progress @ 2025-04-22 12:27:40 : 30815 steps taken, and 31946 accepted.
+[mcmc] Progress @ 2025-04-22 12:28:41 : 30862 steps taken, and 31961 accepted.
+[mcmc] Progress @ 2025-04-22 12:29:43 : 30908 steps taken, and 31980 accepted.
+[mcmc] Progress @ 2025-04-22 12:30:44 : 30956 steps taken, and 31990 accepted.
+[mcmc] Progress @ 2025-04-22 12:31:45 : 31004 steps taken, and 32009 accepted.
+[mcmc] Progress @ 2025-04-22 12:32:45 : 31051 steps taken, and 32025 accepted.
+[mcmc] Progress @ 2025-04-22 12:33:46 : 31097 steps taken, and 32042 accepted.
+[mcmc] Progress @ 2025-04-22 12:34:46 : 31143 steps taken, and 32060 accepted.
+[mcmc] Progress @ 2025-04-22 12:35:48 : 31189 steps taken, and 32068 accepted.
+[mcmc] Progress @ 2025-04-22 12:36:49 : 31237 steps taken, and 32089 accepted.
+[mcmc] Progress @ 2025-04-22 12:37:49 : 31283 steps taken, and 32101 accepted.
+[mcmc] Progress @ 2025-04-22 12:38:50 : 31330 steps taken, and 32119 accepted.
+[mcmc] Progress @ 2025-04-22 12:39:51 : 31377 steps taken, and 32138 accepted.
+[mcmc] Progress @ 2025-04-22 12:40:51 : 31423 steps taken, and 32157 accepted.
+[mcmc] Progress @ 2025-04-22 12:41:52 : 31470 steps taken, and 32175 accepted.
+[mcmc] Progress @ 2025-04-22 12:42:53 : 31519 steps taken, and 32184 accepted.
+[mcmc] Learn + convergence test @ 32200 samples accepted.
+[mcmc]  - Acceptance rate: 0.324
+[mcmc]  - Convergence of means: R-1 = 0.018668 after 25760 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 12:43:53 : 31566 steps taken, and 32200 accepted.
+[mcmc] Progress @ 2025-04-22 12:44:54 : 31611 steps taken, and 32212 accepted.
+[mcmc] Progress @ 2025-04-22 12:45:56 : 31659 steps taken, and 32228 accepted.
+[mcmc] Progress @ 2025-04-22 12:46:56 : 31705 steps taken, and 32245 accepted.
+[mcmc] Progress @ 2025-04-22 12:47:57 : 31750 steps taken, and 32260 accepted.
+[mcmc] Progress @ 2025-04-22 12:48:57 : 31797 steps taken, and 32273 accepted.
+[mcmc] Progress @ 2025-04-22 12:49:58 : 31843 steps taken, and 32286 accepted.
+[mcmc] Progress @ 2025-04-22 12:50:58 : 31890 steps taken, and 32299 accepted.
+[mcmc] Progress @ 2025-04-22 12:51:59 : 31936 steps taken, and 32309 accepted.
+[mcmc] Progress @ 2025-04-22 12:53:00 : 31982 steps taken, and 32329 accepted.
+[mcmc] Progress @ 2025-04-22 12:54:01 : 32029 steps taken, and 32339 accepted.
+[mcmc] Progress @ 2025-04-22 12:55:01 : 32076 steps taken, and 32357 accepted.
+[mcmc] Progress @ 2025-04-22 12:56:03 : 32123 steps taken, and 32367 accepted.
+[mcmc] Progress @ 2025-04-22 12:57:04 : 32169 steps taken, and 32377 accepted.
+[mcmc] Progress @ 2025-04-22 12:58:04 : 32215 steps taken, and 32394 accepted.
+[mcmc] Progress @ 2025-04-22 12:59:04 : 32261 steps taken, and 32413 accepted.
+[mcmc] Progress @ 2025-04-22 13:00:05 : 32306 steps taken, and 32427 accepted.
+[mcmc] Progress @ 2025-04-22 13:01:06 : 32352 steps taken, and 32440 accepted.
+[mcmc] Progress @ 2025-04-22 13:02:07 : 32398 steps taken, and 32453 accepted.
+[mcmc] Progress @ 2025-04-22 13:03:08 : 32445 steps taken, and 32469 accepted.
+[mcmc] Learn + convergence test @ 32480 samples accepted.
+[mcmc]  - Acceptance rate: 0.324
+[mcmc]  - Convergence of means: R-1 = 0.021167 after 25984 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 13:04:08 : 32492 steps taken, and 32487 accepted.
+[mcmc] Progress @ 2025-04-22 13:05:10 : 32538 steps taken, and 32502 accepted.
+[mcmc] Progress @ 2025-04-22 13:06:10 : 32584 steps taken, and 32516 accepted.
+[mcmc] Progress @ 2025-04-22 13:07:10 : 32629 steps taken, and 32526 accepted.
+[mcmc] Progress @ 2025-04-22 13:08:11 : 32677 steps taken, and 32545 accepted.
+[mcmc] Progress @ 2025-04-22 13:09:11 : 32722 steps taken, and 32567 accepted.
+[mcmc] Progress @ 2025-04-22 13:10:12 : 32769 steps taken, and 32583 accepted.
+[mcmc] Progress @ 2025-04-22 13:11:13 : 32817 steps taken, and 32594 accepted.
+[mcmc] Progress @ 2025-04-22 13:12:14 : 32867 steps taken, and 32606 accepted.
+[mcmc] Progress @ 2025-04-22 13:13:15 : 32916 steps taken, and 32624 accepted.
+[mcmc] Progress @ 2025-04-22 13:14:16 : 32963 steps taken, and 32641 accepted.
+[mcmc] Progress @ 2025-04-22 13:15:17 : 33010 steps taken, and 32656 accepted.
+[mcmc] Progress @ 2025-04-22 13:16:17 : 33059 steps taken, and 32674 accepted.
+[mcmc] Progress @ 2025-04-22 13:17:17 : 33106 steps taken, and 32691 accepted.
+[mcmc] Progress @ 2025-04-22 13:18:17 : 33153 steps taken, and 32709 accepted.
+[mcmc] Progress @ 2025-04-22 13:19:18 : 33200 steps taken, and 32730 accepted.
+[mcmc] Progress @ 2025-04-22 13:20:19 : 33249 steps taken, and 32744 accepted.
+[mcmc] Progress @ 2025-04-22 13:21:20 : 33296 steps taken, and 32758 accepted.
+[mcmc] Learn + convergence test @ 32760 samples accepted.
+[mcmc]  - Acceptance rate: 0.324
+[mcmc]  - Convergence of means: R-1 = 0.019591 after 26208 accepted steps
+[mcmc]  - Updated covariance matrix of proposal pdf.
+[mcmc] Progress @ 2025-04-22 13:22:21 : 33343 steps taken, and 32772 accepted.
+[mcmc] Progress @ 2025-04-22 13:23:22 : 33390 steps taken, and 32794 accepted.
+[mcmc] Progress @ 2025-04-22 13:24:23 : 33438 steps taken, and 32811 accepted.
+[mcmc] Progress @ 2025-04-22 13:25:23 : 33485 steps taken, and 32824 accepted.
+[mcmc] Progress @ 2025-04-22 13:26:24 : 33533 steps taken, and 32845 accepted.
+[mcmc] Progress @ 2025-04-22 13:27:24 : 33582 steps taken, and 32860 accepted.
+[mcmc] Progress @ 2025-04-22 13:28:26 : 33629 steps taken, and 32874 accepted.
+[mcmc] Progress @ 2025-04-22 13:29:27 : 33676 steps taken, and 32888 accepted.

@@ -1,0 +1,36 @@
+JobID: 11715367
+Running on: holy8a24301.rc.fas.harvard.edu
+Current directory: /n/home01/awen/meows_home/LCDM/cosmology_run
+Date: Mon Apr 21 10:52:09 EDT 2025
+Python executable: /n/home01/awen/miniconda3/envs/cobaya_env/bin/python
+Using YAML file: cosmology_example.yaml
+[output] Output to be read-from/written-into folder 'chains', with prefix 'gaussian'
+[input] *ERROR* 'planckpr4lensing' could not be found. Tried loading internal and external classes. No component path was given.
+[exception handler] ---------------------------------------
+
+Traceback (most recent call last):
+  File "/n/home01/awen/miniconda3/envs/cobaya_env/bin/cobaya-run", line 8, in <module>
+    sys.exit(run_script())
+             ~~~~~~~~~~^^
+  File "/n/home01/awen/miniconda3/envs/cobaya_env/lib/python3.13/site-packages/cobaya/run.py", line 198, in run_script
+    run(info, **arguments.__dict__)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/n/home01/awen/miniconda3/envs/cobaya_env/lib/python3.13/site-packages/cobaya/run.py", line 97, in run
+    updated_info = update_info(info)
+  File "/n/home01/awen/miniconda3/envs/cobaya_env/lib/python3.13/site-packages/cobaya/input.py", line 320, in update_info
+    default_class_info, annotations = get_default_info(
+                                      ~~~~~~~~~~~~~~~~^
+        name, block, class_name=input_block[name].get("class"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        component_path=component_path, input_options=input_block[name],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        return_undefined_annotations=True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/n/home01/awen/miniconda3/envs/cobaya_env/lib/python3.13/site-packages/cobaya/input.py", line 240, in get_default_info
+    cls = get_component_class(component_or_class, kind, component_path, class_name,
+                              logger=logger)
+  File "/n/home01/awen/miniconda3/envs/cobaya_env/lib/python3.13/site-packages/cobaya/component.py", line 708, in get_component_class
+    raise ComponentNotFoundError(logger, _not_found_msg + add_msg, level=not_found_level)
+cobaya.component.ComponentNotFoundError: 'planckpr4lensing' could not be found. Tried loading internal and external classes. No component path was given.
+-------------------------------------------------------------
+
